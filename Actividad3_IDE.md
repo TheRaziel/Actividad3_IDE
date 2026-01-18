@@ -55,3 +55,62 @@ git status
 - Visual Studio Code es un IDE adecuado para proyectos académicos y personales.
 
 - La integración con Git y GitHub facilita el control de versiones y el trabajo organizado.
+
+## 8. Uso de Git y GitHub
+
+Para el control de versiones del proyecto se utilizó Git, y como repositorio remoto se empleó la plataforma GitHub. Esto permitió llevar un registro de los cambios realizados y asegurar el respaldo del archivo Markdown de la actividad.
+
+### 8.1 Inicialización del repositorio local
+Una vez creada la carpeta del proyecto, se inicializó un repositorio Git local para comenzar el control de versiones. Este paso crea la estructura necesaria para que Git pueda rastrear cambios en los archivos.
+
+Comando utilizado:
+```bash
+git init
+```
+
+### 8.2 Creación y preparación del archivo Markdown
+
+El reporte técnico fue creado utilizando el formato Markdown con el nombre Actividad3_IDE.md.
+Posteriormente, el archivo fue agregado al área de preparación (stage) para que pudiera ser incluido en un commit.
+
+Comando Utilizado:
+```
+git add .
+```
+### 8.3 Registro de cambios (commit)
+
+Después de agregar el archivo al stage, se realizó un commit para guardar el estado del proyecto con un mensaje descriptivo, lo cual permite identificar claramente el propósito del cambio realizado.
+
+Comando utilizado:
+```
+git commit -m "Actividad 3: Configuración de IDE"
+
+```
+
+### 8.4 Creación del repositorio en GitHub
+
+Se creó un repositorio público en GitHub desde el navegador web, con el nombre Actividad3_IDE, el cual serviría como repositorio remoto para alojar el proyecto.
+
+### 8.5 Vinculación del repositorio local con GitHub
+
+Una vez creado el repositorio en GitHub, se enlazó el repositorio local con el repositorio remoto mediante la URL proporcionada por GitHub, estableciendo la rama principal como main.
+
+Comandos utilizados:
+```
+git branch -M main
+git remote add origin https://github.com/TheRaziel/Actividad3_IDE.git
+
+```
+
+### 8.6 Subida del proyecto al repositorio remoto
+
+Finalmente, se subieron los archivos del proyecto al repositorio remoto en GitHub, quedando disponible para consulta y evaluación.
+
+Comando utilizado:
+```
+git push -u origin main
+
+```
+
+
+
